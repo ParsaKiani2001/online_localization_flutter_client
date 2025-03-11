@@ -44,19 +44,7 @@
   <p>You need to specify the base URL of your <strong>Online Localization</strong> server. This can be done in a central location in your app, for example, in a configuration class.</p>
   <pre>
     <code>
-      class Configurations {
-        static List<Locale> locals = [];
-        static List<String> languages = [];
-        static List<Uint8List?> icons = [];
-
-        static init() {
-          // Initialize your configurations here
-        }
-
-        static Future<void> getLocales({bool offline = false}) async {
-          // Fetch available locales and languages from the server
-        }
-      }
+      Configuration.baseUrl = 'http://localhost:5000'
     </code>
   </pre>
 
