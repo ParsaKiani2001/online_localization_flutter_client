@@ -27,7 +27,8 @@
   <pre>
     <code>
       dependencies:
-        online_localization: ^1.0.0  # replace with the latest version
+        online_localization:
+              path: package\online_localization 
         flutter_localizations:
           sdk: flutter
     </code>
@@ -223,7 +224,8 @@
   <pre>
     <code>
       dependencies:
-        online_localization: ^1.0.0  # با آخرین نسخه جایگزین کنید
+        online_localization:
+            path: package\online_localization
         flutter_localizations:
           sdk: flutter
     </code>
